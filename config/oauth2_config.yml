@@ -1,0 +1,8 @@
+site: localhost
+
+localhost:
+  target_site: http://localhost:3000/
+  client_id: 20252379-1ea7-40ac-a09e-178bb935fed0
+  client_secret: eb21b334-f8cd-4f89-bfad-7bf5a0fbe28b
+  callback_uri: oauth2/callback
+  my_site: http://localhost:3002/
