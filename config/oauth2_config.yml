@@ -6,3 +6,4 @@ localhost:
   client_secret: eb21b334-f8cd-4f89-bfad-7bf5a0fbe28b
   callback_uri: oauth2/callback
   my_site: http://localhost:3002/
+  scope: read_0135,write_0135,grant_0135,create_0135

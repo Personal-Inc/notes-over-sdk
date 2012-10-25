@@ -1,5 +1,7 @@
+require 'oauth2_client'
+
 class Oauth2Controller < ApplicationController
-  def start_auth
+  def index
     @oauth_client = Oauth2Client.initialize_from_configuration
     redirect_to @oauth_client.authorize_url
   end

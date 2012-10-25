@@ -1,3 +1,8 @@
+<script type="text/javascript">
+    function openRequest() {
+      window.open("/oauth2",'','width=850,height=800,toolbar=no,location=yes,directories=yes,status=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=no')
+    }
+</script>
 <h1>Notes#index</h1>
 
-<%= button_to "New", :action => "new" %>
+<%= button_to "Connect with Personal", "javascript:openRequest()" %>

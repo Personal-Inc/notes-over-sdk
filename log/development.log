@@ -280,3 +280,1296 @@ ActionController::RoutingError (No route matches [POST] "/notes/new"):
 
 
   Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 14:59:49 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 81ms (Views: 81.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 14:59:50 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/oauth2/start" for 127.0.0.1 at 2012-10-25 14:59:53 +0200
+
+ActionController::RoutingError (No route matches [GET] "/oauth2/start"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/oauth2/start" for 127.0.0.1 at 2012-10-25 15:00:36 +0200
+
+ActionController::RoutingError (No route matches [GET] "/oauth2/start"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:00:48 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/oauth2/start_auth" for 127.0.0.1 at 2012-10-25 15:00:49 +0200
+
+ActionController::RoutingError (No route matches [GET] "/oauth2/start_auth"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/oauth2/start_auth" for 127.0.0.1 at 2012-10-25 15:05:37 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__2871849256778281307__call__2880676436887192337__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/oauth2/start_auth" for 127.0.0.1 at 2012-10-25 15:14:13 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__4360128499156526926__call__2389693907910431694__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 21.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:09 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 30.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:40 +0200
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:15:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/oauth2/index" for 127.0.0.1 at 2012-10-25 15:15:42 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__3476263297894554663__call__3365970733094159635__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/oauth2/index" for 127.0.0.1 at 2012-10-25 15:16:06 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__3476263297894554663__call__3365970733094159635__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/index" for 127.0.0.1 at 2012-10-25 15:17:42 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__3476263297894554663__call__3365970733094159635__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:17:49 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:17:50 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Controller::Oauth2Client):
+  app/controllers/oauth2_controller.rb:3:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:18:41 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@oauth_config in Oauth2Client):
+  lib/oauth2_client.rb:11:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:19:13 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@oauth_config in Oauth2Client):
+  lib/oauth2_client.rb:11:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 21.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:19:32 +0200
+Served asset /application.js - 304 Not Modified (45ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:19:33 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@oauth_config in Oauth2Client):
+  lib/oauth2_client.rb:12:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:20:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:20:01 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@oauth_config in Oauth2Client):
+  lib/oauth2_client.rb:12:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 22.4ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:21:47 +0200
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:21:49 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `client_id' for Oauth2Client:Class):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:31 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:23:33 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `client_id' for Oauth2Client:Class):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 21.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:23:44 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:23:45 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+RuntimeError ({}):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:24:57 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+RuntimeError ({}):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:25:09 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Client::RAILS_ROOT):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:30:16 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Client::RAILS_ROOT):
+  lib/oauth2_client.rb:14:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:30:18 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Client::RAILS_ROOT):
+  lib/oauth2_client.rb:14:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:33:13 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+RuntimeError (/Users/adnankarac/Documents/notes-over-sdk/config/../config/oauth2_config.yml):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.7ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:34:22 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+RuntimeError (/Users/adnankarac/Documents/notes-over-sdk/config/oauth2_config.yml):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:35:41 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.5ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:36:23 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+RuntimeError ({}):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:38:48 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+RuntimeError (sadrzaj {"site"=>"localhost", "localhost"=>{"target_site"=>"http://localhost:3000/", "client_id"=>"20252379-1ea7-40ac-a09e-178bb935fed0", "client_secret"=>"eb21b334-f8cd-4f89-bfad-7bf5a0fbe28b", "callback_uri"=>"oauth2/callback", "my_site"=>"http://localhost:3002/"}}):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:39:55 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:17 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:20 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:20 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:21 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:21 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:21 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:21 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:22 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:22 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:22 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:22 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:40:37 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+TypeError (exception class/object expected):
+  lib/oauth2_client.rb:31:in `raise'
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:41:24 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+TypeError (exception class/object expected):
+  lib/oauth2_client.rb:31:in `raise'
+  lib/oauth2_client.rb:31:in `client_id'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:41:59 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `callback_uri' for Oauth2Client:Class):
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:43:47 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized class variable @@callback_uri in Oauth2Client):
+  lib/oauth2_client.rb:21:in `callback_uri'
+  lib/oauth2_client.rb:13:in `initialize_from_configuration'
+  app/controllers/oauth2_controller.rb:5:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:44:07 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 88ms
+
+NoMethodError (undefined method `authorize_url' for #<Oauth2Client:0x000001015ce408>):
+  app/controllers/oauth2_controller.rb:6:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:46:20 +0200
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback
+Completed 302 Found in 34ms
+
+
+Started GET "/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback" for 127.0.0.1 at 2012-10-25 15:46:20 +0200
+
+ActionController::RoutingError (No route matches [GET] "/oauth/authorize"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /notes.css - 200 OK (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /notes.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-25 15:51:41 +0200
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:51:44 +0200
+Processing by Oauth2Controller#index as HTML
+Completed 500 Internal Server Error in 21ms
+
+RuntimeError (http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback):
+  app/controllers/oauth2_controller.rb:6:in `index'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:52:08 +0200
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback
+Completed 302 Found in 36ms
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 15:58:48 +0200
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 35ms
+
+
+Started GET "/oauth2/callback?code=eg6ox2b80yx3o8rugw5x" for 127.0.0.1 at 2012-10-25 15:59:53 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__1661250747682293531__call__4028130544218915774__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 16:48:24 +0200
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
