@@ -1573,3 +1573,1431 @@ Started GET "/oauth2" for 127.0.0.1 at 2012-10-25 16:48:24 +0200
 Processing by Oauth2Controller#index as HTML
 Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
 Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-29 10:51:42 +0100
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 81ms (Views: 80.9ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-29 10:51:43 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 10:53:41 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 152ms
+
+
+Started GET "/oauth2/callback?code=c14fah4h8rws2ba85o89" for 127.0.0.1 at 2012-10-29 10:54:46 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/oauth2/callback?code=c14fah4h8rws2ba85o89" for 127.0.0.1 at 2012-10-29 10:55:07 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/callback?code=c14fah4h8rws2ba85o89" for 127.0.0.1 at 2012-10-29 10:56:12 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/callback?code=c14fah4h8rws2ba85o89" for 127.0.0.1 at 2012-10-29 10:56:17 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/callback" for 127.0.0.1 at 2012-10-29 10:57:26 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/callback" for 127.0.0.1 at 2012-10-29 10:57:40 +0100
+Processing by Oauth2Controller#show as HTML
+  Parameters: {"id"=>"callback"}
+Completed 500 Internal Server Error in 47ms
+
+ActionView::MissingTemplate (Missing template oauth2/show, application/show with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/adnankarac/Documents/notes-over-sdk/app/views"
+):
+  actionpack (3.2.3) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.3) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:414:in `_run__1984308747685839769__process_action__1062590059034162631__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__852161517972657583__call__2416486083492675832__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 164ms (Views: 163.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-29 10:58:14 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 10:58:43 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 88ms
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 11:00:41 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 80ms
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:01:03 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__1660153738024050366__call__4597256032045504328__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.3ms)
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:02:49 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__1660153738024050366__call__4597256032045504328__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:03:15 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"bnqzgwr533bf0bkulx1t"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Controller::PersonalClient):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:04:04 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__3772800898061655868__call__495052318848303541__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:04:13 +0100
+
+AbstractController::ActionNotFound (The action 'show' could not be found for Oauth2Controller):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__469117601663072573__call__256326002891250131__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/adnankarac/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.2ms)
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:04:29 +0100
+
+ArgumentError (missing :action):
+  config/routes.rb:18:in `block (2 levels) in <top (required)>'
+  config/routes.rb:17:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/oauth2/callback?code=bnqzgwr533bf0bkulx1t" for 127.0.0.1 at 2012-10-29 11:05:58 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"bnqzgwr533bf0bkulx1t"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Controller::PersonalClient):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 11:06:46 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 188ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 90ms (Views: 90.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /notes.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-29 11:07:45 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 11:07:47 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 2ms
+
+
+Started GET "/oauth2/callback?code=q524wvf4zpq5mpfzglpk" for 127.0.0.1 at 2012-10-29 11:08:06 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"q524wvf4zpq5mpfzglpk"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant Oauth2Controller::PersonalClient):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 12:56:55 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 88ms
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:16:22 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 2ms
+
+
+Started GET "/oauth2/callback?code=7clsqs1b4n84id3m5ncd" for 127.0.0.1 at 2012-10-29 13:16:51 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"7clsqs1b4n84id3m5ncd"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `callback_uri' for nil:NilClass):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/oauth2/callback?code=7clsqs1b4n84id3m5ncd" for 127.0.0.1 at 2012-10-29 13:18:09 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"7clsqs1b4n84id3m5ncd"}
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@oauth_client in Oauth2Controller):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/oauth2/callback?code=7clsqs1b4n84id3m5ncd" for 127.0.0.1 at 2012-10-29 13:18:25 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"7clsqs1b4n84id3m5ncd"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `callback_uri' for nil:NilClass):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:26:11 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 88ms
+
+
+Started GET "/oauth2/callback?code=mvzmjyscnfv02g8q8v6r" for 127.0.0.1 at 2012-10-29 13:26:29 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"mvzmjyscnfv02g8q8v6r"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `callback_uri' for #<Oauth2Client:0x00000101f2d648>):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:28:47 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 36ms
+
+
+Started GET "/oauth2/callback?code=lavo9gl96ocv6c1nbj33" for 127.0.0.1 at 2012-10-29 13:29:04 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"lavo9gl96ocv6c1nbj33"}
+Completed 500 Internal Server Error in 4436ms
+
+OAuth2::Error (<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>Unknown action</h1>
+<p>No action responded to token. Actions: access_token, after_authorization, authorize, get_encrypted_password, and validate_recap</p>
+
+
+</body>
+</html>):
+  lib/oauth2_client.rb:24:in `get_access_token'
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:34:31 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=n8s0xfm8krdrp6mojci4" for 127.0.0.1 at 2012-10-29 13:34:55 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"n8s0xfm8krdrp6mojci4"}
+Completed 500 Internal Server Error in 4221ms
+
+OAuth2::Error (<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>Unknown action</h1>
+<p>No action responded to token. Actions: access_token, after_authorization, authorize, get_encrypted_password, and validate_recap</p>
+
+
+</body>
+</html>):
+  lib/oauth2_client.rb:24:in `get_access_token'
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:37:42 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=sddcrpilsmrccwl1up02" for 127.0.0.1 at 2012-10-29 13:38:23 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"sddcrpilsmrccwl1up02"}
+Completed 500 Internal Server Error in 4475ms
+
+OAuth2::Error (<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>Unknown action</h1>
+<p>No action responded to token. Actions: access_token, after_authorization, authorize, get_encrypted_password, and validate_recap</p>
+
+
+</body>
+</html>):
+  lib/oauth2_client.rb:24:in `get_access_token'
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 13:41:13 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=k543fef3bsjhxsqla94z" for 127.0.0.1 at 2012-10-29 13:41:37 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"k543fef3bsjhxsqla94z"}
+Completed 500 Internal Server Error in 4951ms
+
+RuntimeError (#<PersonalClient:0x00000102b55ec0 @access_token=#<OAuth2::AccessToken:0x00000102b55c40 @client=#<OAuth2::Client:0x0000010188bad8 @id="20252379-1ea7-40ac-a09e-178bb935fed0", @secret="eb21b334-f8cd-4f89-bfad-7bf5a0fbe28b", @site="http://localhost:3000/", @options={:authorize_url=>"/oauth/authorize", :token_url=>"/oauth/token", :token_method=>:post, :connection_opts=>{}, :connection_build=>nil, :max_redirects=>5, :raise_errors=>true}, @auth_code=#<OAuth2::Strategy::AuthCode:0x0000010188b9e8 @client=#<OAuth2::Client:0x0000010188bad8 ...>>, @connection=#<Faraday::Connection:0x0000010188b830 @headers={}, @params={}, @options={}, @ssl={}, @parallel_manager=nil, @default_parallel_manager=nil, @builder=#<Faraday::Builder:0x0000010188b718 @handlers=[Faraday::Request::UrlEncoded, Faraday::Adapter::NetHttp]>, @url_prefix=#<URI::HTTP:0x00000100b12dc0 URL:http://localhost:3000/>, @proxy=nil, @app=#<Faraday::Request::UrlEncoded:0x00000101f81f18 @app=#<Faraday::Adapter::NetHttp:0x00000101f82170 @app=#<Proc:0x00000101f79e58@/Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/faraday-0.8.4/lib/faraday/connection.rb:74 (lambda)>>>>>, @token="9gg7ipsckv2bgx4rno15", @refresh_token="pl9eofg2huiimvwn9wn4", @expires_in=3600, @expires_at=1351518102, @options={:mode=>:header, :header_format=>"Bearer %s", :param_name=>"bearer_token"}, @params={"token_type"=>"bearer", "gem_refresh_interval"=>"600", "restricted"=>nil}>>):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-29 14:14:35 +0100
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 138ms (Views: 137.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-29 14:14:35 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-29 14:14:35 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-29 14:14:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-29 14:14:36 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-29 14:14:36 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-29 14:14:36 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:14:37 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=t41t7o2xs983e7rrw38r" for 127.0.0.1 at 2012-10-29 14:14:59 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"t41t7o2xs983e7rrw38r"}
+Completed 500 Internal Server Error in 11305ms
+
+TypeError (exception class/object expected):
+  app/controllers/oauth2_controller.rb:12:in `raise'
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/oauth2/callback?code=t41t7o2xs983e7rrw38r" for 127.0.0.1 at 2012-10-29 14:16:12 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"t41t7o2xs983e7rrw38r"}
+Completed 500 Internal Server Error in 4546ms
+
+OAuth2::Error (server_error: Wrong verification code
+{"error":"server_error","error_description":"Wrong verification code"}):
+  lib/oauth2_client.rb:24:in `get_access_token'
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.2ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:16:23 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=jovldinn6ved4j42ul1y" for 127.0.0.1 at 2012-10-29 14:19:32 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"jovldinn6ved4j42ul1y"}
+Completed 500 Internal Server Error in 10103ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351516772764", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351516772788", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351516772820", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351516772843", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:27:31 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 8ms
+
+
+Started GET "/oauth2/callback?code=xzxxlskzdird63fuqa89" for 127.0.0.1 at 2012-10-29 14:30:40 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"xzxxlskzdird63fuqa89"}
+Completed 500 Internal Server Error in 13757ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351517440840", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351517440952", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351517440971", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351517440982", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:37:13 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 89ms
+
+
+Started GET "/oauth2/callback?code=yqala61d4kbengclv6ik" for 127.0.0.1 at 2012-10-29 14:37:32 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"yqala61d4kbengclv6ik"}
+Completed 500 Internal Server Error in 15729ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351517853747", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351517853760", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351517853780", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351517853788", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:42:50 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=4dvjiz1z6f8ssocqfx4t" for 127.0.0.1 at 2012-10-29 14:43:10 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"4dvjiz1z6f8ssocqfx4t"}
+Completed 500 Internal Server Error in 7ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:44:03 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=d9mjjgb3x3p2imja7iv0" for 127.0.0.1 at 2012-10-29 14:44:21 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"d9mjjgb3x3p2imja7iv0"}
+Completed 500 Internal Server Error in 1ms
+
+RuntimeError (#<Oauth2Client:0x00000102e3cad0 @client=#<OAuth2::Client:0x00000102e3ca80 @id="20252379-1ea7-40ac-a09e-178bb935fed0", @secret="eb21b334-f8cd-4f89-bfad-7bf5a0fbe28b", @site="http://localhost:3000/", @options={:authorize_url=>"/oauth/authorize", :token_url=>"/oauth/token", :token_method=>:post, :connection_opts=>{}, :connection_build=>nil, :max_redirects=>5, :raise_errors=>true}, @auth_code=#<OAuth2::Strategy::AuthCode:0x00000102e3c990 @client=#<OAuth2::Client:0x00000102e3ca80 ...>>, @connection=#<Faraday::Connection:0x00000102e3c7d8 @headers={}, @params={}, @options={}, @ssl={}, @parallel_manager=nil, @default_parallel_manager=nil, @builder=#<Faraday::Builder:0x00000102e3c6c0 @handlers=[Faraday::Request::UrlEncoded, Faraday::Adapter::NetHttp]>, @url_prefix=#<URI::HTTP:0x00000101203670 URL:http://localhost:3000/>, @proxy=nil, @app=#<Faraday::Request::UrlEncoded:0x00000101771af8 @app=#<Faraday::Adapter::NetHttp:0x00000101771d28 @app=#<Proc:0x00000101771e90@/Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/faraday-0.8.4/lib/faraday/connection.rb:74 (lambda)>>>>>, @authorize_url="http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135">):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:45:21 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=ykqu590r5xe3fc6u693a" for 127.0.0.1 at 2012-10-29 14:45:39 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"ykqu590r5xe3fc6u693a"}
+Completed 500 Internal Server Error in 2ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:46:59 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 0ms
+
+
+Started GET "/oauth2/callback?code=z8iwhuglv52a5rrakpa0" for 127.0.0.1 at 2012-10-29 14:47:17 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"z8iwhuglv52a5rrakpa0"}
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:48:36 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 73ms
+
+
+Started GET "/oauth2/callback?code=jr0v3pcb12qz3yauubof" for 127.0.0.1 at 2012-10-29 14:48:55 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"jr0v3pcb12qz3yauubof"}
+Completed 500 Internal Server Error in 3ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:50:52 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 36ms
+
+
+Started GET "/oauth2/callback?code=0sik8rnaobmq69a05k9f" for 127.0.0.1 at 2012-10-29 14:52:06 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"0sik8rnaobmq69a05k9f"}
+Completed 500 Internal Server Error in 2ms
+
+SystemStackError (stack level too deep):
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 14:59:17 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=q1a4998php6pdfe40ft1" for 127.0.0.1 at 2012-10-29 15:01:38 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"q1a4998php6pdfe40ft1"}
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant Oauth2Controller::Oauth_client):
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 15:02:01 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=wxy7nbj4nopnhzmyp1e0" for 127.0.0.1 at 2012-10-29 15:02:20 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"wxy7nbj4nopnhzmyp1e0"}
+Completed 500 Internal Server Error in 5078ms
+
+NoMethodError (undefined method `id' for #<Oauth2Client:0x000001020f1b00>):
+  app/controllers/oauth2_controller.rb:12:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 15:04:37 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 2ms
+
+
+Started GET "/oauth2/callback?code=3mnuqxkuc4luheza7pce" for 127.0.0.1 at 2012-10-29 15:04:56 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"3mnuqxkuc4luheza7pce"}
+Completed 500 Internal Server Error in 14442ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351519497290", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351519497304", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351519497374", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351519497385", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:13:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Processing by NotesController#index as HTML
+  Rendered notes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 124ms (Views: 123.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2012-10-29 16:08:02 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 16:08:04 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 71ms
+
+
+Started GET "/oauth2/callback?code=emo3i5jorbe1acaixmwg" for 127.0.0.1 at 2012-10-29 16:08:26 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"emo3i5jorbe1acaixmwg"}
+Completed 500 Internal Server Error in 12206ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351523307417", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351523307435", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351523307455", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351523307464", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:13:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/oauth2/callback?code=emo3i5jorbe1acaixmwg" for 127.0.0.1 at 2012-10-29 16:09:47 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"emo3i5jorbe1acaixmwg"}
+Completed 500 Internal Server Error in 4858ms
+
+OAuth2::Error (server_error: Wrong verification code
+{"error":"server_error","error_description":"Wrong verification code"}):
+  lib/oauth2_client.rb:21:in `get_access_token'
+  app/controllers/oauth2_controller.rb:11:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 16:10:00 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 1ms
+
+
+Started GET "/oauth2/callback?code=zh8f8pk1efcvmj7q41ou" for 127.0.0.1 at 2012-10-29 16:10:23 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"zh8f8pk1efcvmj7q41ou"}
+Completed 500 Internal Server Error in 12046ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351523424445", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351523424459", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351523424497", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351523424518", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:13:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.3ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.0ms)
+
+
+Started GET "/oauth2" for 127.0.0.1 at 2012-10-29 16:20:51 +0100
+Processing by Oauth2Controller#index as HTML
+Redirected to http://localhost:3000/oauth/authorize?response_type=code&client_id=20252379-1ea7-40ac-a09e-178bb935fed0&redirect_uri=http%3A%2F%2Flocalhost%3A3002%2Foauth2%2Fcallback&scope=read_0135%2Cwrite_0135%2Cgrant_0135%2Ccreate_0135
+Completed 302 Found in 44ms
+
+
+Started GET "/oauth2/callback?code=cjdacp1fi9xqycjl8qao" for 127.0.0.1 at 2012-10-29 16:21:52 +0100
+Processing by Oauth2Controller#callback as HTML
+  Parameters: {"code"=>"cjdacp1fi9xqycjl8qao"}
+Completed 500 Internal Server Error in 11795ms
+
+RuntimeError ([200, {"gems"=>[{"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0000#830cef7a-14b9-47f0-8b88-2804b63da2b0", "gem_instance_name"=>"Moje ime: Adnan 1", "gem_template_id"=>"0000", "gem_type"=>"my", "created_timestamp"=>"1350549706118", "updated_timestamp"=>"1350550780609", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0001#12fb38c7-3a84-4d5e-b820-3e0ba84b9bb4", "gem_instance_name"=>"Contact Info 1", "gem_template_id"=>"0001", "gem_type"=>"my", "created_timestamp"=>"1326275866859", "updated_timestamp"=>"1342514164369", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0021#f912ec0f-d17e-4bca-bfcf-d093e69004ee", "gem_instance_name"=>"dffa", "gem_template_id"=>"0021", "gem_type"=>"my", "created_timestamp"=>"1332343431857", "updated_timestamp"=>"1350476029565", "creation_type"=>"user", "access_permissions"=>["read", "write", "create"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0022#74d29f58-3e0d-43c4-9607-be9d080608d9", "gem_instance_name"=>"Life Insurance 1", "gem_template_id"=>"0022", "gem_type"=>"my", "created_timestamp"=>"1342514149628", "updated_timestamp"=>"1350465183572", "creation_type"=>"user", "access_permissions"=>["read", "write"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0037#75146710-1ffc-4d54-8749-34ff91fcb4eb", "gem_instance_name"=>"y", "gem_template_id"=>"0037", "gem_type"=>"my", "created_timestamp"=>"1334144660468", "updated_timestamp"=>"1342514164528", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#0230f84f-4369-4418-a4ca-2f81a2fcaf04", "gem_instance_name"=>"Bank Accounts 1", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000420474", "updated_timestamp"=>"1348061373078", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0042#b4c80bb6-0d36-4b26-935a-367e89f29712", "gem_instance_name"=>"Bank Accounts 2", "gem_template_id"=>"0042", "gem_type"=>"my", "created_timestamp"=>"1321000589553", "updated_timestamp"=>"1348061373107", "creation_type"=>"user", "access_permissions"=>["read"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0098#5cf19f79-7bef-43f0-95aa-3e1120945c94", "gem_instance_name"=>"Food Restrictions & Preferences 1", "gem_template_id"=>"0098", "gem_type"=>"my", "created_timestamp"=>"1322642932168", "updated_timestamp"=>"1342514164581", "creation_type"=>"user", "access_permissions"=>["read", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#3483d154-120c-4acc-bcdf-57b0cd5828be", "gem_instance_name"=>"Live Music", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150217", "updated_timestamp"=>"1351524113167", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#4f8ae218-28cb-43ab-b8a9-f60996512fdf", "gem_instance_name"=>"Car Preferences", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150211", "updated_timestamp"=>"1351524113187", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#7e4bfdf9-1f85-4b27-af63-27e20096554a", "gem_instance_name"=>"Live Events", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150229", "updated_timestamp"=>"1351524113205", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_instance_id"=>"1a53a8a2-dd14-4633-8723-1ec18806c6e8#0135#9114b955-193e-4f08-a9b8-ebf8696264b3", "gem_instance_name"=>"Sports Fan 1", "gem_template_id"=>"0135", "gem_type"=>"my", "created_timestamp"=>"1342514150226", "updated_timestamp"=>"1351524113215", "creation_type"=>"user", "access_permissions"=>["read", "write", "create", "grant"]}, {"gem_template_id"=>"5007", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0012", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0061", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0084", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0107", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0032", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0013", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0087", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0041", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0033", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0133", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0144", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0134", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0036", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0158", "gem_type"=>"my", "access_permissions"=>[]}, {"gem_template_id"=>"0019", "gem_type"=>"my", "access_permissions"=>[]}]}]):
+  app/controllers/oauth2_controller.rb:13:in `callback'
+
+
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/adnankarac/.rvm/gems/ruby-1.9.3-p125@rails323/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
